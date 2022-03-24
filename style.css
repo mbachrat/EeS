@@ -1,0 +1,33 @@
+#over {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#container {
+   width: 800px;
+   height: 800px;
+   display: flex;
+   flex-direction: column;
+}
+
+
+.row {
+    background-color: blueviolet;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items:center;
+    
+    
+}
+
+.gridsquare {
+    display: flex;
+    flex: 1;
+    border: 3px;
+    border-style: solid;
+    height: 100%;
+}
